@@ -1,5 +1,5 @@
 let temperature = 0
-basic.showString("Radio TX")
+basic.showString("Radio RX")
 radio.setGroup(200)
 serial.redirectToUSB()
 basic.forever(function () {
